@@ -1,0 +1,43 @@
+//
+//  voiceDemo_hyc-Prefix.pch
+//  voiceDemo_hyc
+//
+//  Created by Admin on 2017/7/12.
+//  Copyright © 2017年 xyd. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+
+#import "BaseHeader.h"       //基类
+
+#import "Define.h"           //宏方法
+#import "GCD.h"
+#import "RequestURL.h"      //请求地址
+#import "ColorCustom.h"     //颜色定义
+//#import "threeT-Swift.h"    //swift文件
+#import "Tool.h"
+#import "UIColor+func.h"
+#import "UIView+CGRectAndSize.h"
+#import "UIFont+custom.h"
+#import "UIButton+Action.h"
+#import "UserInfo.h"
+#import "Tools.h"
+#import "HUD.h"
+
+/*************************** 第三方库 **********************************/
+#import "AFNetworking.h"
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+
+#endif

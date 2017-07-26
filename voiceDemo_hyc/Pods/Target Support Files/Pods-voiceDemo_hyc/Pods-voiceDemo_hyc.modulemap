@@ -1,0 +1,6 @@
+framework module Pods_voiceDemo_hyc {
+  umbrella header "Pods-voiceDemo_hyc-umbrella.h"
+
+  export *
+  module * { export * }
+}
